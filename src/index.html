@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mobilebone.css">
+    <link rel="stylesheet" href="css/mobilebone.animate.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/music.css">
+    <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/mobilebone.js"></script>
+    <script src="js/music.js"></script>
+    <title>移动web音乐播放器</title>
+</head>
+<body>
+<!--账号页面-->
+<div id="myinfo" class="page  out" data-form="flip">
+    <nav>
+        账号
+    </nav>
+    <div class="user-info-name">
+        <div class="user-img">
+
+        </div>
+
+        <div class="user-name">
+            666777
+        </div>
+
+        <div class="user-level">
+            <i>Lv.99</i>
+        </div>
+
+        <div class="user-qiandao">
+            已签到
+        </div>
+    </div>
+
+    <div class="user-info">
+        <ul>
+            <li>动态<p>99+</p></li>
+            <li>关注<p>99+</p></li>
+            <li>粉丝<p>999+</p></li>
+            <li>我的资料<p><i class="iconfont icon-zhanghao"></i></p></li>
+        </ul>
+    </div>
+    <div class="user-message">
+        <ul>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-duanxin"></i>&nbsp;&nbsp;&nbsp;我的消息<i class="iconfont icon-you"></i></li>
+        </ul>
+    </div>
+
+    <div class="user-info-list">
+        <ul>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-zuanshi"></i>&nbsp;&nbsp;&nbsp;会员中心<i class="iconfont icon-you"></i></li>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-gouwuche"></i>&nbsp;&nbsp;&nbsp;积分商城<i class="iconfont icon-you"></i></li>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-iconset0163"></i>&nbsp;&nbsp;&nbsp;在线听歌免流量<i class="iconfont icon-you"></i></li>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-iconshezhi01"></i>&nbsp;&nbsp;&nbsp;设置<i class="iconfont icon-you"></i></li>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-saoyisao"></i>&nbsp;&nbsp;&nbsp;扫一扫<i class="iconfont icon-you"></i></li>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-huanfu"></i>&nbsp;&nbsp;&nbsp;主题换肤<i class="iconfont icon-you"></i></li>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-dengpao"></i>&nbsp;&nbsp;&nbsp;夜间模式<i class="iconfont icon-you"></i></li>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-ttpodicon1"></i>&nbsp;&nbsp;&nbsp;定时关闭<i class="iconfont icon-you"></i></li>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-alarm-clock"></i>&nbsp;&nbsp;&nbsp;音乐闹钟<i class="iconfont icon-you"></i></li>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-huanche"></i>&nbsp;&nbsp;&nbsp;驾驶模式<i class="iconfont icon-you"></i></li>
+        </ul>
+    </div>
+
+    <div class="user-message">
+        <ul class="bottom-ul">
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-fenxiang"></i>&nbsp;&nbsp;&nbsp;分享网易云音乐<i class="iconfont icon-you"></i></li>
+            <li>&nbsp;&nbsp;&nbsp;<i class="iconfont icon-guanyu1"></i>&nbsp;&nbsp;&nbsp;关于<i class="iconfont icon-you"></i></li>
+        </ul>
+    </div>
+    <div class="content"><p>退出登录</p></div>
+</div>
+<!--发现音乐页面-->
+<div id="findmusic" class="page out" data-form="flip">
+    <nav>
+        <!--<img src="img/adn.png" alt="">-->
+        <i class="iconfont icon-erji"></i>
+        <!--<img src="img/aej.png" alt="">-->
+        <input type="text" placeholder="搜索音乐、歌词、电台">
+    </nav>
+    <div class="nav-list">
+        <ul>
+            <li>个性推荐</li>
+            <li>歌单</li>
+            <li>主播电台</li>
+            <li>排行榜</li>
+        </ul>
+    </div>
+
+    <div class="showimg">
+        <ul class="findmusic-img">
+            <li><img src="/img/1.png" alt=""></li>
+            <li><img src="/img/2.png" alt=""></li>
+            <li><img src="/img/3.png" alt=""></li>
+            <li><img src="/img/4.png" alt=""></li>
+            <li><img src="/img/5.png" alt=""></li>
+            <li><img src="/img/6.png" alt=""></li>
+            <li><img src="/img/7.png" alt=""></li>
+            <li><img src="/img/8.png" alt=""></li>
+            <li><img src="/img/1.png" alt=""></li>
+        </ul>
+
+        <ul class="num">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div class="threeimg">
+        <ul>
+            <li><img src="/img/aee.png" alt=""><p>私人FM</p></li>
+            <li><img src="/img/ael.png" alt=""><p>每日歌曲推荐</p></li>
+            <li><img src="/img/aes.png" alt=""><p>云音乐热歌榜</p></li>
+        </ul>
+    </div>
+
+    <div class="musicsection">
+        <div class="title">
+            &nbsp;<img src="/img/aek.png" alt=""><span>推荐歌单</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>更多&gt;</span>
+        </div>
+
+        <div class="musicbox" id="musicBox">
+
+            <div class="musicbox-box">
+
+                <div class="musicbox-content">
+                    <a href="#mymusic"><img src="/img/314471217.jpg" alt="" id="playmusicone"></a>
+                </div>
+                <p>[华语]错过那些人</p>
+            </div>
+
+            <div class="musicbox-box">
+                <div class="musicbox-content">
+                    <a href="#mymusic"><img src="/img/590607840.jpg" alt="" id="playmusictwo"></a>
+                </div>
+                <p>[古风]古韵风流</p>
+            </div>
+
+            <div class="musicbox-box">
+                <div class="musicbox-content">
+                    <a href="#mymusic"><img src="/img/583004327.jpg" alt="" id="playmusicthree"></a>
+                </div>
+                <p>[B站]BiLiBili拜年祭</p>
+            </div>
+
+            <div class="musicbox-box bottom-img">
+                <div class="musicbox-content">
+                    <a href="#mymusic"><img src="/img/588661675.jpg" alt="" id="playmusicfour"></a>
+                </div>
+                <p>[欧美]天籁女声</p>
+            </div>
+
+            <div class="musicbox-box bottom-img">
+                <div class="musicbox-content">
+                    <a href="#mymusic"><img src="/img/558925036.jpg" alt="" id="playmusicfive"></a>
+                </div>
+                <p>[动漫]二次元之音</p>
+            </div>
+
+            <div class="musicbox-box bottom-img">
+                <div class="musicbox-content">
+                    <a href="#mymusic"><img src="/img/542465308.jpg" alt="" id="playmusicsix"></a>
+                </div>
+                <p>[对唱]缱绻情歌</p>
+            </div>
+
+            <div class="musicbox-box bottom-img">
+                <div class="musicbox-content">
+                    <a href="#mymusic"><img src="/img/12.jpg" alt="" id="playmusicseven"></a>
+                </div>
+                <p>[劲爆]健身必备</p>
+            </div>
+
+            <div class="musicbox-box bottom-img">
+                <div class="musicbox-content">
+                    <a href="#mymusic"><img src="/img/p3.jpg" alt="" id="playmusiceight"></a>
+                </div>
+                <p>[女声]华语经典</p>
+            </div>
+
+            <div class="musicbox-box bottom-img">
+                <div class="musicbox-content">
+                    <a href="#mymusic"><img src="/img/p2.jpg" alt="" id="playmusicnine"></a>
+                </div>
+                <p>[热血]难忘青春</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--音乐页面-->
+<div id="mymusic" class="page out" data-form="flip">
+
+    <div class="wrapper">
+        <div id="bg" class="bg">
+            <div class="bg-cover"></div>
+        </div>
+        <div class="title">
+            <div class="music-info">
+                <div class="song" id="songName"></div>
+                <div class="artist" id="artist"></div>
+            </div>
+        </div>
+        <div class="play-board">
+            <img id="mymusicneedle" class="play-needle pause-needle" src="/img/play_needle.png"/>
+
+            <div class="disk-bg"></div>
+            <div class="disk-cover disk-cover-animation" style="display: none">
+                <img class="album" src="/img/placeholder_disk_play_song.png"/>
+                <img class="disk-border" src="/img/play_disc.png"/>
+            </div>
+            <div class="disk-cover disk-cover-animation">
+                <img class="album" src="/img/placeholder_disk_play_song.png"/>
+                <img class="disk-border" src="/img/play_disc.png"/>
+            </div>
+            <div class="disk-cover disk-cover-animation" style="display: none">
+                <img class="album" src="/img/placeholder_disk_play_song.png"/>
+                <img class="disk-border" src="/img/play_disc.png"/>
+            </div>
+            <audio id="mymusicplayer"></audio>
+            <div class="mymusicfooter">
+                <div class="process" id="mymusicprocess">
+                    <span id="currentTime">00:00</span>
+
+                    <div class="process-bar">
+                        <div class="rdy"></div>
+                        <div class="cur">
+                            <span id="processBtn" class="process-btn c-btn"></span>
+                        </div>
+                    </div>
+                    <span id="totalTime">00:00</span>
+                </div>
+                <div class="control" id="mymusiccontrols">
+                    <span class="c-btn loop-btn" onclick="ctx.loop()"></span>
+                    <span class="pre c-btn" onclick="ctx.prev()"></span>
+                    <span class="play c-btn" onclick="ctx.play()"></span>
+                    <span class="pause c-btn" onclick="ctx.pause()" style="display: none"></span>
+                    <span class="next c-btn" onclick="ctx.next()"></span>
+                    <span class="c-btn list-btn" onclick="ctx.showPlayList()"></span>
+                </div>
+            </div>
+        </div>
+        <div class="play-list" id="mymusicplayList">
+            <div class="list-title">播放列表（<span id="playListCount">0</span>）</div>
+            <ul class="list-content" id="listContent">
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <ul>
+        <li><a href="#findmusic"><i class="iconfont icon-wangyiyunyinlezizhi"></i><br/>发现音乐</a></li>
+        <li><a href="#mymusic"><i class="iconfont icon-yinfu1"></i><br/>我的音乐</a></li>
+        <li><a href="#myinfo" class="active"><i class="iconfont icon-zhanghao"></i><br/>账号</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
